@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="550" viewBox="0 0 760 615">
+  <title>权限判断流程：黑名单 &gt; 白名单 &gt; 默认允许</title>
+  <defs>
+    <marker id="arw6" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#475569"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="615" fill="#ffffff"/>
+
+  <text x="380" y="46" text-anchor="middle" font-family="system-ui, sans-serif" font-size="27" font-weight="700" fill="#1e293b">权限判断流程：黑名单 &gt; 白名单 &gt; 默认允许</text>
+
+  <!-- 起点 -->
+  <rect x="88" y="92" width="180" height="48" rx="10" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+  <text x="178" y="122" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15.5" fill="#334155">成员请求使用能力</text>
+  <line x1="268" y1="116" x2="296" y2="116" stroke="#475569" stroke-width="2.5" marker-end="url(#arw6)"/>
+
+  <!-- 判断1：黑名单 -->
+  <polygon points="405,60 510,116 405,172 300,116" fill="#fff7ed" stroke="#f59e0b" stroke-width="2.5"/>
+  <text x="405" y="122" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15.5" fill="#9a3412">在黑名单？</text>
+  <circle cx="322" cy="78" r="13" fill="#f59e0b"/>
+  <text x="322" y="83" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">1</text>
+
+  <line x1="510" y1="116" x2="578" y2="116" stroke="#475569" stroke-width="2.5" marker-end="url(#arw6)"/>
+  <text x="543" y="106" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#b91c1c">是</text>
+  <rect x="580" y="90" width="150" height="52" rx="10" fill="#fee2e2" stroke="#ef4444" stroke-width="2.5"/>
+  <text x="655" y="121" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#b91c1c">❌ 拒绝</text>
+
+  <line x1="405" y1="172" x2="405" y2="204" stroke="#475569" stroke-width="2.5" marker-end="url(#arw6)"/>
+  <text x="420" y="194" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#475569">否</text>
+
+  <!-- 判断2：白名单 -->
+  <polygon points="405,208 510,264 405,320 300,264" fill="#fff7ed" stroke="#f59e0b" stroke-width="2.5"/>
+  <text x="405" y="270" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15.5" fill="#9a3412">在白名单？</text>
+  <circle cx="322" cy="226" r="13" fill="#f59e0b"/>
+  <text x="322" y="231" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">2</text>
+
+  <line x1="510" y1="264" x2="578" y2="264" stroke="#475569" stroke-width="2.5" marker-end="url(#arw6)"/>
+  <text x="543" y="254" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#15803d">是</text>
+  <rect x="580" y="238" width="150" height="52" rx="10" fill="#dcfce7" stroke="#22c55e" stroke-width="2.5"/>
+  <text x="655" y="269" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#15803d">✅ 允许</text>
+
+  <line x1="405" y1="320" x2="405" y2="350" stroke="#475569" stroke-width="2.5" marker-end="url(#arw6)"/>
+  <text x="420" y="340" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#475569">否</text>
+
+  <!-- 终点：默认允许 -->
+  <rect x="315" y="354" width="180" height="50" rx="10" fill="#dcfce7" stroke="#22c55e" stroke-width="2.5"/>
+  <text x="405" y="384" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#15803d">✅ 默认允许</text>
+  <circle cx="298" cy="372" r="13" fill="#22c55e"/>
+  <text x="298" y="377" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">3</text>
+  <text x="405" y="428" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" fill="#b91c1c">若默认策略被改为「默认拒绝」→ ❌（最常见事故来源）</text>
+
+  <!-- 排查三步 -->
+  <text x="88" y="472" text-anchor="start" font-family="system-ui, sans-serif" font-size="15.5" font-weight="700" fill="#1e293b">排查顺序（客户反馈「某人用不了某能力」时）</text>
+
+  <rect x="60" y="490" width="205" height="80" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="162" y="522" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#1e293b">① 先查黑名单</text>
+  <text x="162" y="546" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" fill="#64748b">是否被误加进去</text>
+
+  <rect x="278" y="490" width="205" height="80" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="380" y="522" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#1e293b">② 再查白名单</text>
+  <text x="380" y="546" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" fill="#64748b">是否只加了部分人</text>
+
+  <rect x="496" y="490" width="205" height="80" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="598" y="522" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#1e293b">③ 后查默认策略</text>
+  <text x="598" y="546" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" fill="#64748b">是否被改成默认拒绝</text>
+
+  <line x1="265" y1="530" x2="276" y2="530" stroke="#475569" stroke-width="2.5" marker-end="url(#arw6)"/>
+  <line x1="483" y1="530" x2="494" y2="530" stroke="#475569" stroke-width="2.5" marker-end="url(#arw6)"/>
+
+  <text x="380" y="600" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#64748b">口诀：先黑名单、再白名单、最后默认策略——把默认策略改成「拒绝」前，先想清楚影响面</text>
+</svg>

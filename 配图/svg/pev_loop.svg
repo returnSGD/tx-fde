@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 520" role="img" aria-label="PEV 交付闭环：P 原型、V 验证、E 实证三阶段循环" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, sans-serif">
+  <defs>
+    <marker id="arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <text x="440" y="46" text-anchor="middle" font-size="18" font-weight="600" fill="#2563eb">PEV 交付闭环</text>
+
+  <!-- P -->
+  <rect x="320" y="72" width="240" height="76" rx="12" fill="#f5f3ff" stroke="#ddd6fe"/>
+  <text x="440" y="104" text-anchor="middle" font-size="16" font-weight="600" fill="#0f172a">P 原型 Prototype</text>
+  <text x="440" y="128" text-anchor="middle" font-size="13" fill="#64748b">让客户挑错</text>
+
+  <!-- V -->
+  <rect x="60" y="286" width="250" height="76" rx="12" fill="#ecfdf5" stroke="#a7f3d0"/>
+  <text x="185" y="318" text-anchor="middle" font-size="16" font-weight="600" fill="#0f172a">V 验证 Validation</text>
+  <text x="185" y="342" text-anchor="middle" font-size="13" fill="#64748b">对上预设指标</text>
+
+  <!-- E -->
+  <rect x="570" y="286" width="250" height="76" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="695" y="318" text-anchor="middle" font-size="16" font-weight="600" fill="#0f172a">E 实证 Evidence</text>
+  <text x="695" y="342" text-anchor="middle" font-size="13" fill="#64748b">真数据真用户</text>
+
+  <!-- 中心迭代提示 -->
+  <rect x="328" y="190" width="224" height="38" rx="19" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="440" y="215" text-anchor="middle" font-size="13" fill="#2563eb">持续迭代 · 每轮 2-4 周</text>
+
+  <!-- 循环箭头 -->
+  <path d="M208 280 C238 220 296 186 340 156" fill="none" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arw)"/>
+  <path d="M562 112 C646 142 700 206 700 278" fill="none" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arw)"/>
+  <path d="M566 324 H320" fill="none" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arw)"/>
+
+  <text x="440" y="386" text-anchor="middle" font-size="12" fill="#64748b">三阶段顺序不能跳——跳过 P 直接做 E，<tspan x="440" dy="18">两周后才发现做的不是客户要的</tspan></text>
+
+  <rect x="190" y="424" width="500" height="52" rx="14" fill="#ecfdf5" stroke="#a7f3d0"/>
+  <text x="440" y="456" text-anchor="middle" font-size="14" fill="#059669">在 WorkBuddy 上：一个下午就能跑完一轮压缩版 PEV</text>
+</svg>

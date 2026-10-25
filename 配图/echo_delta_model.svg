@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="501" viewBox="0 0 760 560">
+  <title>Echo/Delta 能力模型</title>
+
+  <!-- 白底：绝对坐标覆盖整个 viewBox -->
+  <rect x="0" y="0" width="760" height="560" fill="#ffffff"/>
+
+  <!-- 标题 -->
+  <text x="380" y="52" text-anchor="middle" font-family="system-ui, sans-serif"
+        font-size="28" font-weight="700" fill="#1e293b">Echo / Delta 能力模型</text>
+
+  <!-- Echo 圆（左，蓝） -->
+  <circle cx="270" cy="310" r="170" fill="#dbeafe" fill-opacity="0.6"
+          stroke="#3b82f6" stroke-width="3"/>
+  <text x="270" y="225" text-anchor="middle" font-family="system-ui, sans-serif"
+        font-size="24" font-weight="700" fill="#1e40af">Echo</text>
+  <text x="270" y="262" text-anchor="middle" font-family="system-ui, sans-serif"
+        font-size="18" fill="#1e40af">领域理解</text>
+  <text x="270" y="292" text-anchor="middle" font-family="system-ui, sans-serif"
+        font-size="18" fill="#1e40af">需求洞察</text>
+  <text x="270" y="322" text-anchor="middle" font-family="system-ui, sans-serif"
+        font-size="18" fill="#1e40af">技术判断</text>
+  <text x="270" y="352" text-anchor="middle" font-family="system-ui, sans-serif"
+        font-size="18" fill="#1e40af">方案设计</text>
+
+  <!-- Delta 圆（右，橙） -->
+  <circle cx="490" cy="310" r="170" fill="#fef3c7" fill-opacity="0.6"
+          stroke="#f59e0b" stroke-width="3"/>
+  <text x="490" y="225" text-anchor="middle" font-family="system-ui, sans-serif"
+        font-size="24" font-weight="700" fill="#b45309">Delta</text>
+  <text x="490" y="262" text-anchor="middle" font-family="system-ui, sans-serif"
+        font-size="18" fill="#b45309">编码配置</text>
+  <text x="490" y="292" text-anchor="middle" font-family="system-ui, sans-serif"
+        font-size="18" fill="#b45309">系统集成</text>
+  <text x="490" y="322" text-anchor="middle" font-family="system-ui, sans-serif"
+        font-size="18" fill="#b45309">调试排错</text>
+  <text x="490" y="352" text-anchor="middle" font-family="system-ui, sans-serif"
+        font-size="18" fill="#b45309">交付落地</text>
+
+  <!-- 交集区域：FDE -->
+  <text x="380" y="280" text-anchor="middle" font-family="system-ui, sans-serif"
+        font-size="22" font-weight="700" fill="#7c3aed">FDE</text>
+  <text x="380" y="312" text-anchor="middle" font-family="system-ui, sans-serif"
+        font-size="15" fill="#7c3aed">判断+执行</text>
+  <text x="380" y="338" text-anchor="middle" font-family="system-ui, sans-serif"
+        font-size="15" fill="#7c3aed">缺一不可</text>
+
+  <!-- 底部说明 -->
+  <text x="380" y="535" text-anchor="middle" font-family="system-ui, sans-serif"
+        font-size="15" fill="#64748b">FDE = Echo ∩ Delta：既会判断方向，又能跑通路径，两者缺一不可</text>
+</svg>

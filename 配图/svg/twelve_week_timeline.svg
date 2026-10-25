@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" role="img" aria-label="12 周节奏：立项、方案设计、开发推进、项目管理四个阶段与四道 Gate" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, sans-serif">
+  <defs>
+    <marker id="arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <text x="480" y="44" text-anchor="middle" font-size="18" font-weight="600" fill="#2563eb">12 周节奏：四阶段 + 四道 Gate</text>
+
+  <path d="M270 94 V368" fill="none" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 5" opacity="0.85"/>
+  <text x="270" y="82" text-anchor="middle" font-size="12" font-weight="600" fill="#dc2626">G1 立项卡定稿</text>
+  <path d="M480 94 V368" fill="none" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 5" opacity="0.85"/>
+  <text x="480" y="82" text-anchor="middle" font-size="12" font-weight="600" fill="#dc2626">G2 方案验证</text>
+  <path d="M690 94 V368" fill="none" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 5" opacity="0.85"/>
+  <text x="690" y="82" text-anchor="middle" font-size="12" font-weight="600" fill="#dc2626">G3 POC 定稿</text>
+  <path d="M900 94 V368" fill="none" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5 5" opacity="0.85"/>
+  <text x="900" y="82" text-anchor="middle" font-size="12" font-weight="600" fill="#dc2626">G4 复盘结业</text>
+
+  <rect x="60" y="100" width="198" height="58" rx="10" fill="#2563eb"/>
+  <text x="159" y="125" text-anchor="middle" font-size="15" font-weight="600" fill="#ffffff">立项期 W1-W3</text>
+  <text x="159" y="145" text-anchor="middle" font-size="12" fill="#dbeafe">专家 + 立项卡</text>
+  <rect x="276" y="162" width="198" height="58" rx="10" fill="#d97706"/>
+  <text x="375" y="187" text-anchor="middle" font-size="15" font-weight="600" fill="#ffffff">方案设计期 W4-W6</text>
+  <text x="375" y="207" text-anchor="middle" font-size="12" fill="#fef3c7">检索 + 可视化 + PRD</text>
+  <rect x="486" y="224" width="198" height="58" rx="10" fill="#059669"/>
+  <text x="585" y="249" text-anchor="middle" font-size="15" font-weight="600" fill="#ffffff">开发推进期 W7-W9</text>
+  <text x="585" y="269" text-anchor="middle" font-size="12" fill="#d1fae5">AI Coding + POC</text>
+  <rect x="696" y="286" width="198" height="58" rx="10" fill="#2563eb"/>
+  <text x="795" y="311" text-anchor="middle" font-size="15" font-weight="600" fill="#ffffff">项目管理期 W10-W12</text>
+  <text x="795" y="331" text-anchor="middle" font-size="12" fill="#dbeafe">评审 + 沉淀</text>
+
+  <rect x="60" y="386" width="840" height="66" rx="12" fill="#ecfdf5" stroke="#a7f3d0"/>
+  <text x="480" y="412" text-anchor="middle" font-size="13" fill="#0f172a">每阶段末一道 Gate，Go/No-Go 由人终审——<tspan x="480" dy="20">没过就回去补，不许带病前行</tspan></text>
+</svg>

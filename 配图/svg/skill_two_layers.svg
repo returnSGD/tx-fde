@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-label="Skill 封装的两层结构：共性方法层封装进 Skill，客户特化层留在资料库与配置参数" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, sans-serif">
+  <defs>
+    <marker id="arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <text x="360" y="40" text-anchor="middle" font-size="18" font-weight="600" fill="#2563eb">Skill 封装的两层结构</text>
+
+  <!-- 上层 -->
+  <rect x="48" y="58" width="624" height="232" rx="12" fill="#ffffff" stroke="#bfdbfe"/>
+  <text x="360" y="86" text-anchor="middle" font-size="14" font-weight="600" fill="#2563eb">共性方法层 → 封装进 Skill</text>
+  <text x="360" y="110" text-anchor="middle" font-size="12" fill="#64748b">换一个客户仍然适用的通用步骤、判断逻辑、流程编排</text>
+  <rect x="88" y="126" width="544" height="32" rx="8" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="360" y="147" text-anchor="middle" font-size="14" fill="#0f172a">抽样 20 条切片</text>
+  <path d="M355 158.5 L360 163.5 L365 158.5" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="88" y="166" width="544" height="32" rx="8" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="360" y="187" text-anchor="middle" font-size="14" fill="#0f172a">检测表格切断</text>
+  <path d="M355 198.5 L360 203.5 L365 198.5" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="88" y="206" width="544" height="32" rx="8" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="360" y="227" text-anchor="middle" font-size="14" fill="#0f172a">调整切片配置</text>
+  <path d="M355 238.5 L360 243.5 L365 238.5" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="88" y="246" width="544" height="32" rx="8" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="360" y="267" text-anchor="middle" font-size="14" fill="#0f172a">运行回归测试</text>
+
+  <!-- 剥离线 -->
+  <path d="M60 308 H186" fill="none" stroke="#d97706" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <path d="M534 308 H660" fill="none" stroke="#d97706" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <rect x="188" y="292" width="344" height="32" rx="16" fill="#fffbeb" stroke="#fde68a"/>
+  <text x="360" y="313" text-anchor="middle" font-size="13" fill="#d97706">剥离线：换客户只改下层，上层原样复用</text>
+
+  <!-- 下层 -->
+  <rect x="48" y="344" width="624" height="160" rx="12" fill="#ffffff" stroke="#fde68a"/>
+  <text x="360" y="374" text-anchor="middle" font-size="14" font-weight="600" fill="#d97706">客户特化层 → 留在资料库与配置参数</text>
+  <text x="360" y="398" text-anchor="middle" font-size="12" fill="#64748b">只是这个客户才有的参数、数据、业务规则</text>
+  <rect x="78" y="418" width="168" height="52" rx="26" fill="#fffbeb" stroke="#fde68a"/>
+  <text x="162" y="450" text-anchor="middle" font-size="13" fill="#0f172a">表格占比约 30%</text>
+  <rect x="266" y="418" width="190" height="52" rx="26" fill="#fffbeb" stroke="#fde68a"/>
+  <text x="361" y="450" text-anchor="middle" font-size="13" fill="#0f172a">max_chunk_size 800→600</text>
+  <rect x="476" y="418" width="166" height="52" rx="26" fill="#fffbeb" stroke="#fde68a"/>
+  <text x="559" y="450" text-anchor="middle" font-size="13" fill="#0f172a">保留结构 false→true</text>
+</svg>

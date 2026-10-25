@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" role="img" aria-label="Prompt 的五个组成部件：角色身份、指令任务、约束边界、示例样本、输出格式" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, sans-serif">
+  <defs>
+    <linearGradient id="gb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eff6ff"/><stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="gg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ecfdf5"/><stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="gp" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5f3ff"/><stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <!-- 角色身份 -->
+  <rect x="27" y="56" width="146" height="368" rx="12" fill="url(#gb)" stroke="#e2e8f0"/>
+  <circle cx="100" cy="186" r="46" fill="#eff6ff"/>
+  <path d="M78 212 V203 A22 22 0 0 1 122 203 V212 Z" fill="#2563eb"/>
+  <circle cx="100" cy="172" r="13" fill="#2563eb"/>
+  <path d="M27 368 H173 V412 A12 12 0 0 1 161 424 H39 A12 12 0 0 1 27 412 Z" fill="#2563eb"/>
+  <text x="100" y="404" text-anchor="middle" font-size="16" font-weight="600" fill="#ffffff">角色身份</text>
+
+  <!-- 指令任务 -->
+  <rect x="217" y="56" width="146" height="368" rx="12" fill="url(#gb)" stroke="#e2e8f0"/>
+  <circle cx="290" cy="186" r="46" fill="#eff6ff"/>
+  <rect x="271" y="161" width="38" height="49" rx="5" fill="#2563eb"/>
+  <rect x="277" y="169" width="26" height="33" rx="2" fill="#ffffff"/>
+  <rect x="282" y="156" width="16" height="9" rx="3" fill="#2563eb"/>
+  <path d="M281 177 l3 3 l5 -6" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M291 179 H299" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+  <path d="M281 187 l3 3 l5 -6" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M291 189 H299" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+  <path d="M281 197 l3 3 l5 -6" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M291 199 H299" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+  <path d="M217 368 H363 V412 A12 12 0 0 1 351 424 H229 A12 12 0 0 1 217 412 Z" fill="#2563eb"/>
+  <text x="290" y="404" text-anchor="middle" font-size="16" font-weight="600" fill="#ffffff">指令任务</text>
+
+  <!-- 约束边界 -->
+  <rect x="407" y="56" width="146" height="368" rx="12" fill="url(#gg)" stroke="#e2e8f0"/>
+  <circle cx="480" cy="186" r="46" fill="#ecfdf5"/>
+  <path d="M480 159 L500 168 V187 C500 201 491 209 480 213 C469 209 460 201 460 187 V168 Z" fill="#059669"/>
+  <path d="M472 187 l6 6 l11 -12" fill="none" stroke="#ffffff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M407 368 H553 V412 A12 12 0 0 1 541 424 H419 A12 12 0 0 1 407 412 Z" fill="#059669"/>
+  <text x="480" y="404" text-anchor="middle" font-size="16" font-weight="600" fill="#ffffff">约束边界</text>
+
+  <!-- 示例样本 -->
+  <rect x="597" y="56" width="146" height="368" rx="12" fill="url(#gp)" stroke="#e2e8f0"/>
+  <circle cx="670" cy="186" r="46" fill="#f5f3ff"/>
+  <rect x="648" y="164" width="44" height="44" rx="5" fill="#7c3aed"/>
+  <circle cx="679" cy="177" r="4.2" fill="#ffffff"/>
+  <path d="M648 208 V190 L663 177 L674 188 L681 181 L692 192 V208 Z" fill="#ffffff"/>
+  <path d="M597 368 H743 V412 A12 12 0 0 1 731 424 H609 A12 12 0 0 1 597 412 Z" fill="#7c3aed"/>
+  <text x="670" y="404" text-anchor="middle" font-size="16" font-weight="600" fill="#ffffff">示例样本</text>
+
+  <!-- 输出格式 -->
+  <rect x="787" y="56" width="146" height="368" rx="12" fill="url(#gb)" stroke="#e2e8f0"/>
+  <circle cx="860" cy="186" r="46" fill="#eff6ff"/>
+  <rect x="842" y="160" width="36" height="52" rx="4" fill="#2563eb"/>
+  <path d="M869 160 L878 169 V160 Z" fill="#ffffff"/>
+  <path d="M856 178 l-7 8 l7 8" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M864 178 l7 8 l-7 8" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="850" y="202" width="20" height="3" rx="1.5" fill="#ffffff"/>
+  <path d="M787 368 H933 V412 A12 12 0 0 1 921 424 H799 A12 12 0 0 1 787 412 Z" fill="#2563eb"/>
+  <text x="860" y="404" text-anchor="middle" font-size="16" font-weight="600" fill="#ffffff">输出格式</text>
+
+  <circle cx="195" cy="186" r="13" fill="#2563eb"/>
+  <rect x="188" y="184.8" width="14" height="2.4" rx="1.2" fill="#ffffff"/>
+  <rect x="193.8" y="179" width="2.4" height="14" rx="1.2" fill="#ffffff"/>
+
+  <circle cx="385" cy="186" r="13" fill="#2563eb"/>
+  <rect x="378" y="184.8" width="14" height="2.4" rx="1.2" fill="#ffffff"/>
+  <rect x="383.8" y="179" width="2.4" height="14" rx="1.2" fill="#ffffff"/>
+
+  <circle cx="575" cy="186" r="13" fill="#2563eb"/>
+  <rect x="568" y="184.8" width="14" height="2.4" rx="1.2" fill="#ffffff"/>
+  <rect x="573.8" y="179" width="2.4" height="14" rx="1.2" fill="#ffffff"/>
+
+  <circle cx="765" cy="186" r="13" fill="#2563eb"/>
+  <rect x="758" y="184.8" width="14" height="2.4" rx="1.2" fill="#ffffff"/>
+  <rect x="763.8" y="179" width="2.4" height="14" rx="1.2" fill="#ffffff"/>
+</svg>

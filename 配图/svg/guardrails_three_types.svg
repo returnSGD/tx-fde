@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 620" role="img" aria-label="三类护栏：拦在动作之前的检查器" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">
+  <title>三类护栏：拦在动作之前的检查器</title>
+  <style>
+    text { font-family: system-ui, -apple-system, "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif; }
+  </style>
+  <defs>
+    <marker id="arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <text x="440" y="46" font-size="18" font-weight="700" fill="#2563eb" text-anchor="middle">三类护栏：拦在动作之前的检查器</text>
+  <rect x="105" y="96" width="150" height="50" rx="25" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5"/>
+  <text x="180" y="127" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">用户输入</text>
+  <rect x="365" y="96" width="150" height="50" rx="25" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5"/>
+  <text x="440" y="127" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">LLM 思考</text>
+  <rect x="615" y="96" width="170" height="50" rx="25" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5"/>
+  <text x="700" y="127" font-size="14" font-weight="600" fill="#0f172a" text-anchor="middle">调工具 / MCP</text>
+  <path d="M255 121 H359" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arw)"/>
+  <path d="M515 121 H609" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arw)"/>
+  <path d="M180 270 V205 H760" stroke="#d97706" stroke-width="1.5" stroke-dasharray="6 5" fill="none"/>
+  <path d="M440 270 V152" stroke="#d97706" stroke-width="1.5" stroke-dasharray="6 5" fill="none" marker-end="url(#arw)"/>
+  <path d="M700 270 V152" stroke="#d97706" stroke-width="1.5" stroke-dasharray="6 5" fill="none" marker-end="url(#arw)"/>
+  <path d="M760 205 V152" stroke="#d97706" stroke-width="1.5" stroke-dasharray="6 5" fill="none" marker-end="url(#arw)"/>
+  <rect x="60" y="270" width="240" height="132" rx="12" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+  <text x="180" y="304" font-size="14.5" font-weight="700" fill="#d97706" text-anchor="middle">① 提示词护栏</text>
+  <text x="180" y="332" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="middle">进模型前：拦注入与越权指令</text>
+  <text x="180" y="356" font-size="11.5" font-weight="400" fill="#64748b" text-anchor="middle">关键词黑名单 + 小模型分类器</text>
+  <rect x="320" y="270" width="240" height="132" rx="12" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+  <text x="440" y="304" font-size="14.5" font-weight="700" fill="#d97706" text-anchor="middle">② 工具护栏</text>
+  <text x="440" y="332" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="middle">调工具前：拦参数注入与高危动作</text>
+  <text x="440" y="356" font-size="11.5" font-weight="400" fill="#64748b" text-anchor="middle">正则校验 + 动作白名单 + 二次审批</text>
+  <rect x="580" y="270" width="240" height="132" rx="12" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+  <text x="700" y="304" font-size="14.5" font-weight="700" fill="#d97706" text-anchor="middle">③ 连接器护栏</text>
+  <text x="700" y="332" font-size="12.5" font-weight="400" fill="#0f172a" text-anchor="middle">外发前：域名白名单 + DLP 扫描</text>
+  <text x="700" y="356" font-size="11.5" font-weight="400" fill="#64748b" text-anchor="middle">含 PII 数据外发即拦截</text>
+  <text x="440" y="462" font-size="12" font-weight="400" fill="#475569" text-anchor="middle">护栏不是越多越好——高频低风险动作精简护栏（读操作 10ms 级），低频高风险才上重护栏，平衡安全与延迟</text>
+  <rect x="44" y="505" width="792" height="60" rx="12" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1.2"/>
+  <text x="440" y="541" font-size="13" font-weight="400" fill="#0f172a" text-anchor="middle">直觉：Prompt 护栏管「用户说了什么」，工具护栏管「Agent 要干什么」，连接器护栏管「会不会捅到外面」</text>
+</svg>

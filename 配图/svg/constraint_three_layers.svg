@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" role="img" aria-label="约束三层模型：数据层管进出、能力层管能不能、过程层管留痕与资格，一次请求依次经过三个卡点">
+  <defs>
+    <marker id="downArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">
+    <text x="440" y="46" text-anchor="middle" font-size="18" font-weight="600" fill="#0f172a">约束三层模型：一次请求的三个卡点</text>
+    <g>
+      <rect x="40" y="72" width="800" height="92" rx="12" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1"/>
+      <text x="440" y="112" text-anchor="middle" font-size="16" font-weight="600" fill="#0f172a">数据层 · 管进出</text>
+      <text x="440" y="138" text-anchor="middle" font-size="12.5" fill="#475569">类比：公司门禁 + 安检——什么数据能进 Prompt、什么能出内网</text>
+    </g>
+    <g>
+      <rect x="40" y="200" width="800" height="92" rx="12" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+      <text x="440" y="240" text-anchor="middle" font-size="16" font-weight="600" fill="#0f172a">能力层 · 管能不能</text>
+      <text x="440" y="266" text-anchor="middle" font-size="12.5" fill="#475569">类比：员工权限矩阵——Agent 有没有权限调这个 API、能不能删库</text>
+    </g>
+    <g>
+      <rect x="40" y="328" width="800" height="92" rx="12" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
+      <text x="440" y="368" text-anchor="middle" font-size="16" font-weight="600" fill="#0f172a">过程层 · 管留痕与资格</text>
+      <text x="440" y="394" text-anchor="middle" font-size="12.5" fill="#475569">类比：监控 + 上岗证——日志可不可查、评测过没过门槛</text>
+    </g>
+    <g fill="none" stroke="#94a3b8" stroke-width="1.5">
+      <path d="M 440 167 L 440 196" marker-end="url(#downArrow)"/>
+      <path d="M 440 295 L 440 324" marker-end="url(#downArrow)"/>
+    </g>
+    <text x="440" y="452" text-anchor="middle" font-size="12.5" fill="#475569">真实事故往往跨层叠加：数据层漏脱敏 × 能力层乱授权 × 过程层没埋点</text>
+    <text x="440" y="471" text-anchor="middle" font-size="12.5" fill="#475569">三层都要过，任何一层裸奔都算不合规</text>
+    <rect x="200" y="492" width="480" height="44" rx="12" fill="#ffffff" stroke="#a7f3d0" stroke-width="1"/>
+    <text x="440" y="519" text-anchor="middle" font-size="13" fill="#0f172a">CISO 答辩模板：先讲数据层，再讲能力层，最后讲过程层</text>
+  </g>
+</svg>

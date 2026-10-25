@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-label="Agent Loop 循环：感知、规划、行动、反思四个环节首尾相接">
+  <defs>
+    <marker id="loopArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">
+    <g fill="none" stroke="#94a3b8" stroke-width="1.8">
+      <path d="M 437 113 C 514 119 566 166 576 244" marker-end="url(#loopArrow)"/>
+      <path d="M 576 326 C 566 408 514 452 446 456" marker-end="url(#loopArrow)"/>
+      <path d="M 282 456 C 216 452 164 408 152 326" marker-end="url(#loopArrow)"/>
+      <path d="M 152 244 C 164 166 216 119 281 114" marker-end="url(#loopArrow)"/>
+    </g>
+    <rect x="285" y="83" width="150" height="64" rx="14" fill="#2563eb"/>
+    <text x="360" y="124" text-anchor="middle" font-size="21" font-weight="600" fill="#ffffff">感知</text>
+    <rect x="500" y="253" width="150" height="64" rx="14" fill="#2563eb"/>
+    <text x="575" y="294" text-anchor="middle" font-size="21" font-weight="600" fill="#ffffff">规划</text>
+    <rect x="285" y="423" width="150" height="64" rx="14" fill="#2563eb"/>
+    <text x="360" y="464" text-anchor="middle" font-size="21" font-weight="600" fill="#ffffff">行动</text>
+    <rect x="70" y="253" width="150" height="64" rx="14" fill="#2563eb"/>
+    <text x="145" y="294" text-anchor="middle" font-size="21" font-weight="600" fill="#ffffff">反思</text>
+    <text x="360" y="292" text-anchor="middle" font-size="20" font-weight="600" fill="#0f172a">Agent Loop</text>
+  </g>
+</svg>

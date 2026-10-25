@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 576" role="img" aria-label="四维验收框架：效果、效率、采纳、合规四个维度，各含三项指标与一句判据">
+  <g font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">
+    <text x="440" y="46" text-anchor="middle" font-size="18" font-weight="600" fill="#0f172a">四维验收框架</text>
+    <g>
+      <rect x="40" y="70" width="392" height="208" rx="12" fill="#ffffff" stroke="#bfdbfe" stroke-width="1"/>
+      <text x="236" y="100" text-anchor="middle" font-size="16" font-weight="600" fill="#2563eb">效果 · 回答得对不对</text>
+      <rect x="62" y="118" width="348" height="30" rx="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+      <text x="236" y="138" text-anchor="middle" font-size="13" fill="#0f172a">准确率（基线 +5-10pp，不得低于 80%）</text>
+      <rect x="62" y="154" width="348" height="30" rx="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+      <text x="236" y="174" text-anchor="middle" font-size="13" fill="#0f172a">拒答率（设上限 &lt;15%，0% 是危险信号）</text>
+      <rect x="62" y="190" width="348" height="30" rx="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+      <text x="236" y="210" text-anchor="middle" font-size="13" fill="#0f172a">相关性评分（抽样 50-100 条，均值 ≥4.0/5）</text>
+      <text x="74" y="254" font-size="12" fill="#64748b">不对就是错的——效果是基础维度</text>
+    </g>
+    <g>
+      <rect x="448" y="70" width="392" height="208" rx="12" fill="#ffffff" stroke="#ddd6fe" stroke-width="1"/>
+      <text x="644" y="100" text-anchor="middle" font-size="16" font-weight="600" fill="#7c3aed">效率 · 比之前快多少</text>
+      <rect x="470" y="118" width="348" height="30" rx="8" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1"/>
+      <text x="644" y="138" text-anchor="middle" font-size="13" fill="#0f172a">响应时间（看 P95/P99，不只看平均）</text>
+      <rect x="470" y="154" width="348" height="30" rx="8" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1"/>
+      <text x="644" y="174" text-anchor="middle" font-size="13" fill="#0f172a">人效提升（排除业务量自然波动）</text>
+      <rect x="470" y="190" width="348" height="30" rx="8" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1"/>
+      <text x="644" y="210" text-anchor="middle" font-size="13" fill="#0f172a">人工介入率（区分必须介入与不信任介入）</text>
+      <path d="M478 245 l7 12 h-14 z" fill="none" stroke="#d97706" stroke-width="1.4" stroke-linejoin="round"/>
+      <line x1="478" y1="248" x2="478" y2="252" stroke="#d97706" stroke-width="1.4"/>
+      <circle cx="478" cy="254.5" r="0.9" fill="#d97706"/>
+      <text x="498" y="254" font-size="12" fill="#d97706">必须设对照组——否则分不清 AI 的功劳还是霍桑效应</text>
+    </g>
+    <g>
+      <rect x="40" y="294" width="392" height="208" rx="12" fill="#ffffff" stroke="#a7f3d0" stroke-width="1"/>
+      <text x="236" y="324" text-anchor="middle" font-size="16" font-weight="600" fill="#059669">采纳 · 用户愿不愿用</text>
+      <rect x="62" y="342" width="348" height="30" rx="8" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
+      <text x="236" y="362" text-anchor="middle" font-size="13" fill="#0f172a">周活跃率（试点用户每周至少用一次 &gt;80%）</text>
+      <rect x="62" y="378" width="348" height="30" rx="8" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
+      <text x="236" y="398" text-anchor="middle" font-size="13" fill="#0f172a">使用深度（平均交互 ≥3 轮/会话）</text>
+      <rect x="62" y="414" width="348" height="30" rx="8" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
+      <text x="236" y="434" text-anchor="middle" font-size="13" fill="#0f172a">留存率（试点 4 周后仍用 &gt;70%）</text>
+      <text x="74" y="478" font-size="12" fill="#64748b">没人用等于没交付——采纳看 4 周，不看首周</text>
+    </g>
+    <g>
+      <rect x="448" y="294" width="392" height="208" rx="12" fill="#ffffff" stroke="#fecaca" stroke-width="1"/>
+      <text x="644" y="324" text-anchor="middle" font-size="16" font-weight="600" fill="#dc2626">合规 · 会不会出事（一票否决）</text>
+      <rect x="470" y="342" width="348" height="30" rx="8" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+      <text x="644" y="362" text-anchor="middle" font-size="13" fill="#0f172a">拒答优于胡答（无答案 100% 拒答，不编内容）</text>
+      <rect x="470" y="378" width="348" height="30" rx="8" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+      <text x="644" y="398" text-anchor="middle" font-size="13" fill="#0f172a">可溯源（每条回答附来源标注，可回溯原文）</text>
+      <rect x="470" y="414" width="348" height="30" rx="8" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+      <text x="644" y="434" text-anchor="middle" font-size="13" fill="#0f172a">人可接管（一键转人工 &lt;5s，无感交接）</text>
+      <text x="482" y="478" font-size="12" fill="#dc2626">三条兜底是必选项——合规不过关，其他三维全过也判否</text>
+    </g>
+    <rect x="40" y="518" width="800" height="42" rx="12" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
+    <text x="440" y="545" text-anchor="middle" font-size="13" font-weight="500" fill="#0f172a">进场第一周就定好四维阈值——不等验收阶段才找补</text>
+  </g>
+</svg>

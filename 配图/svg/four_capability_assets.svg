@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" role="img" aria-label="四类能力资产：专家 / Skill / 连接器 / 资料库" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">
+  <title>四类能力资产：专家 / Skill / 连接器 / 资料库</title>
+  <style>
+    text { font-family: system-ui, -apple-system, "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif; }
+  </style>
+  <rect x="24" y="24" width="210" height="340" rx="12" fill="#ffffff"/>
+  <path d="M 36 24 H 222 A 12 12 0 0 1 234 36 V 40 H 24 V 36 A 12 12 0 0 1 36 24 Z" fill="#d97706"/>
+  <path d="M 24 40 V 352 A 12 12 0 0 0 36 364 H 222 A 12 12 0 0 0 234 352 V 40" fill="none" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="129" y="102" font-size="18" font-weight="700" fill="#2563eb" text-anchor="middle">专家</text>
+  <text x="129" y="176" font-size="13" font-weight="400" fill="#0f172a" text-anchor="middle">把岗位经验封装为</text>
+  <text x="129" y="200" font-size="13" font-weight="400" fill="#0f172a" text-anchor="middle">可调用的角色</text>
+  <text x="129" y="300" font-size="13" font-weight="400" fill="#0f172a" text-anchor="middle">打包三者可直接调用</text>
+  <rect x="258" y="24" width="210" height="340" rx="12" fill="#ffffff"/>
+  <path d="M 270 24 H 456 A 12 12 0 0 1 468 36 V 40 H 258 V 36 A 12 12 0 0 1 270 24 Z" fill="#d97706"/>
+  <path d="M 258 40 V 352 A 12 12 0 0 0 270 364 H 456 A 12 12 0 0 0 468 352 V 40" fill="none" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="363" y="102" font-size="18" font-weight="700" fill="#2563eb" text-anchor="middle">Skill</text>
+  <text x="363" y="176" font-size="13" font-weight="400" fill="#0f172a" text-anchor="middle">把任务经验固化为</text>
+  <text x="363" y="200" font-size="13" font-weight="400" fill="#0f172a" text-anchor="middle">能力单元</text>
+  <text x="363" y="300" font-size="13" font-weight="400" fill="#0f172a" text-anchor="middle">描述怎么做</text>
+  <rect x="492" y="24" width="210" height="340" rx="12" fill="#ffffff"/>
+  <path d="M 504 24 H 690 A 12 12 0 0 1 702 36 V 40 H 492 V 36 A 12 12 0 0 1 504 24 Z" fill="#d97706"/>
+  <path d="M 492 40 V 352 A 12 12 0 0 0 504 364 H 690 A 12 12 0 0 0 702 352 V 40" fill="none" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="597" y="102" font-size="18" font-weight="700" fill="#2563eb" text-anchor="middle">连接器</text>
+  <text x="597" y="176" font-size="13" font-weight="400" fill="#0f172a" text-anchor="middle">把 AI 接入企业</text>
+  <text x="597" y="200" font-size="13" font-weight="400" fill="#0f172a" text-anchor="middle">真实系统</text>
+  <text x="597" y="300" font-size="13" font-weight="400" fill="#0f172a" text-anchor="middle">决定能接入哪些系统</text>
+  <rect x="726" y="24" width="210" height="340" rx="12" fill="#ffffff"/>
+  <path d="M 738 24 H 924 A 12 12 0 0 1 936 36 V 40 H 726 V 36 A 12 12 0 0 1 738 24 Z" fill="#d97706"/>
+  <path d="M 726 40 V 352 A 12 12 0 0 0 738 364 H 924 A 12 12 0 0 0 936 352 V 40" fill="none" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="831" y="102" font-size="18" font-weight="700" fill="#2563eb" text-anchor="middle">资料库</text>
+  <text x="831" y="176" font-size="13" font-weight="400" fill="#0f172a" text-anchor="middle">提供专业内容与</text>
+  <text x="831" y="200" font-size="13" font-weight="400" fill="#0f172a" text-anchor="middle">业务上下文</text>
+  <text x="831" y="300" font-size="13" font-weight="400" fill="#0f172a" text-anchor="middle">决定能调用什么内容</text>
+</svg>

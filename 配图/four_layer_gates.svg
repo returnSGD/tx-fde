@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="537" viewBox="0 0 760 600">
+  <title>客户落地四层门槛</title>
+
+  <rect x="0" y="0" width="760" height="600" fill="#ffffff"/>
+
+  <text x="380" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#1e293b">客户落地四层门槛</text>
+
+  <!-- 第1层：理解需求（蓝） -->
+  <rect x="60" y="402" width="158" height="90" fill="#dbeafe" stroke="#3b82f6" stroke-width="2.5"/>
+  <text x="139" y="431" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16.5" font-weight="700" fill="#1e40af">① 理解需求</text>
+  <text x="139" y="452" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#334155">客户到底要解决</text>
+  <text x="139" y="468" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#334155">什么业务问题</text>
+  <text x="139" y="485" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11.5" fill="#475569">Echo / 行业专家</text>
+
+  <!-- 第2层：翻译需求（青） -->
+  <rect x="228" y="312" width="158" height="180" fill="#cffafe" stroke="#06b6d4" stroke-width="2.5"/>
+  <text x="307" y="341" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16.5" font-weight="700" fill="#155e75">② 翻译需求</text>
+  <text x="307" y="362" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#334155">业务问题转成</text>
+  <text x="307" y="378" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#334155">AI 可执行任务</text>
+  <text x="307" y="395" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11.5" fill="#475569">Echo + FDPM</text>
+
+  <!-- 第3层：零到一搭建（琥珀） -->
+  <rect x="396" y="222" width="158" height="270" fill="#fef3c7" stroke="#f59e0b" stroke-width="2.5"/>
+  <text x="475" y="251" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16.5" font-weight="700" fill="#b45309">③ 零到一搭建</text>
+  <text x="475" y="272" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#334155">快速做出</text>
+  <text x="475" y="288" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#334155">可运行原型</text>
+  <text x="475" y="305" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11.5" fill="#475569">Delta</text>
+
+  <!-- 第4层：一到N调优（绿） -->
+  <rect x="564" y="132" width="158" height="360" fill="#d1fae5" stroke="#10b981" stroke-width="2.5"/>
+  <text x="643" y="161" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16.5" font-weight="700" fill="#065f46">④ 一到 N 调优</text>
+  <text x="643" y="182" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#334155">稳定、可复用</text>
+  <text x="643" y="198" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#334155">可扩展</text>
+  <text x="643" y="215" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11.5" fill="#475569">Delta + 产品/知识工程</text>
+
+  <!-- 侧标签 -->
+  <text x="190" y="294" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#1e40af">Echo 侧：判断该做什么</text>
+  <text x="643" y="112" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#065f46">Delta 侧：把它做出来</text>
+
+  <text x="380" y="548" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14.5" fill="#1e293b">⚠ 常见错误：直接从第 3 层「搭建」开始——第 1、2 层没打通，搭出来的东西客户不用</text>
+  <text x="380" y="574" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#64748b">FDE 的专业性首先体现在前两层（Echo 侧）；入门者最容易从第 3 层直接开始</text>
+</svg>

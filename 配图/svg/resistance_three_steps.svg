@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" role="img" aria-label="破解一线抵触三步法：分别对齐预期、建小范围对照组、让 AI 对一线有用" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, &quot;Microsoft YaHei&quot;, &quot;PingFang SC&quot;, sans-serif">
+  <defs>
+    <marker id="arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <text x="480" y="46" text-anchor="middle" font-size="18" font-weight="600" fill="#2563eb">破解一线抵触三步法</text>
+
+  <rect x="30" y="80" width="270" height="150" rx="12" fill="#f5f3ff" stroke="#ddd6fe"/>
+  <circle cx="56" cy="120" r="12" fill="#7c3aed"/>
+  <text x="56" y="125" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff">1</text>
+  <text x="76" y="126" font-size="16" font-weight="600" fill="#0f172a">分别对齐预期</text>
+  <text x="54" y="166" font-size="13" fill="#475569">负责人/中层/一线分层一对一聊</text>
+  <text x="54" y="190" font-size="13" fill="#475569">别开大会——大会听不到真话</text>
+
+  <rect x="345" y="80" width="270" height="150" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+  <circle cx="371" cy="120" r="12" fill="#2563eb"/>
+  <text x="371" y="125" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff">2</text>
+  <text x="391" y="126" font-size="16" font-weight="600" fill="#0f172a">建小范围对照组</text>
+  <text x="369" y="166" font-size="13" fill="#475569">5-10 人试点 vs 5-10 人对照</text>
+  <text x="369" y="190" font-size="13" fill="#475569">跑 2-4 周拿数据说话</text>
+
+  <rect x="660" y="80" width="270" height="150" rx="12" fill="#ecfdf5" stroke="#a7f3d0"/>
+  <circle cx="686" cy="120" r="12" fill="#059669"/>
+  <text x="686" y="125" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff">3</text>
+  <text x="706" y="126" font-size="16" font-weight="600" fill="#0f172a">让 AI 对一线有用</text>
+  <text x="684" y="166" font-size="13" fill="#475569">省力气、减背锅、涨本事——</text>
+  <text x="684" y="190" font-size="13" fill="#475569">一线信同事，不信领导和你</text>
+
+  <path d="M304 155 H339" fill="none" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arw)"/>
+  <path d="M619 155 H654" fill="none" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arw)"/>
+
+  <rect x="120" y="300" width="720" height="52" rx="26" fill="#fffbeb" stroke="#fde68a"/>
+  <text x="480" y="331" text-anchor="middle" font-size="15" fill="#d97706">硬骨头在中层：绑定利益、借力打力、或把他变成 AI 训练师</text>
+
+  <text x="480" y="424" text-anchor="middle" font-size="13" fill="#64748b">三步不是一次性的——持续破抵触，出了 bug 还会反复</text>
+</svg>

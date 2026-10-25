@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="501" viewBox="0 0 760 560">
+  <title>FDE 三步闭环：交付 + 学习双循环</title>
+  <defs>
+    <marker id="arw" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#475569"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="560" fill="#ffffff"/>
+
+  <text x="380" y="52" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#1e293b">FDE 三步闭环：交付 + 学习双循环</text>
+
+  <!-- 卡1：读懂现场（蓝） -->
+  <rect x="265" y="85" width="230" height="150" rx="14" fill="#dbeafe" stroke="#3b82f6" stroke-width="2.5"/>
+  <text x="380" y="120" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#1e40af">① 读懂现场</text>
+  <text x="380" y="150" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13.5" fill="#334155"><tspan font-weight="700" fill="#1e40af">交付</tspan>：理解真实业务场景与约束</text>
+  <text x="380" y="176" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13.5" fill="#334155"><tspan font-weight="700" fill="#7c3aed">学习</tspan>：提炼行业知识与术语库</text>
+  <text x="380" y="204" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">→ 行业知识图谱 / 领域术语</text>
+
+  <!-- 卡2：组装方案（绿） -->
+  <rect x="480" y="325" width="230" height="150" rx="14" fill="#d1fae5" stroke="#10b981" stroke-width="2.5"/>
+  <text x="595" y="360" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#065f46">② 组装方案</text>
+  <text x="595" y="390" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13.5" fill="#334155"><tspan font-weight="700" fill="#1e40af">交付</tspan>：用平台能力拼出方案</text>
+  <text x="595" y="416" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13.5" fill="#334155"><tspan font-weight="700" fill="#7c3aed">学习</tspan>：抽象成可复用模板</text>
+  <text x="595" y="444" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">→ Skill / Prompt 模板</text>
+
+  <!-- 卡3：验证交付（琥珀） -->
+  <rect x="50" y="325" width="230" height="150" rx="14" fill="#fef3c7" stroke="#f59e0b" stroke-width="2.5"/>
+  <text x="165" y="360" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#b45309">③ 验证交付</text>
+  <text x="165" y="390" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13.5" fill="#334155"><tspan font-weight="700" fill="#1e40af">交付</tspan>：冻结样本评测证据</text>
+  <text x="165" y="416" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13.5" fill="#334155"><tspan font-weight="700" fill="#7c3aed">学习</tspan>：沉淀评测集与流程规则</text>
+  <text x="165" y="444" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">→ 冻结样本 / Benchmark</text>
+
+  <!-- 中心：一线实践反哺 -->
+  <text x="380" y="262" text-anchor="middle" font-family="system-ui, sans-serif" font-size="21" font-weight="700" fill="#7c3aed">一线实践反哺</text>
+  <text x="380" y="290" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13.5" fill="#7c3aed">每一步都同时完成</text>
+  <text x="380" y="312" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13.5" fill="#7c3aed">对客户的交付 + 对平台的学习</text>
+
+  <!-- 环形箭头 -->
+  <path d="M 487,232 Q 555,272 590,322" fill="none" stroke="#475569" stroke-width="2.5" marker-end="url(#arw)"/>
+  <path d="M 478,400 L 286,400" fill="none" stroke="#475569" stroke-width="2.5" marker-end="url(#arw)"/>
+  <path d="M 168,320 Q 100,258 262,228" fill="none" stroke="#475569" stroke-width="2.5" marker-end="url(#arw)"/>
+
+  <text x="380" y="535" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" fill="#64748b">三步不是流水线，是闭环：验证交付发现的新问题，会反过来让你重新读懂现场</text>
+</svg>

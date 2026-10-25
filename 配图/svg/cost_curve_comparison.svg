@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 680" role="img" aria-label="成本曲线：项目制 vs 本体化" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">
+  <title>成本曲线：项目制 vs 本体化</title>
+  <style>
+    text { font-family: system-ui, -apple-system, "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif; }
+  </style>
+  <text x="440" y="48" font-size="18" font-weight="700" fill="#2563eb" text-anchor="middle">成本曲线：项目制 vs 本体化</text>
+  <rect x="28" y="80" width="396" height="452" rx="12" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="226" y="116" font-size="15" font-weight="700" fill="#dc2626" text-anchor="middle">项目制（不沉淀）</text>
+  <rect x="52" y="140" width="348" height="96" rx="10" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+  <text x="226" y="184" font-size="15" font-weight="600" fill="#0f172a" text-anchor="middle">第 1 个项目</text>
+  <text x="226" y="210" font-size="12.5" font-weight="400" fill="#64748b" text-anchor="middle">成本记为基准</text>
+  <rect x="52" y="260" width="348" height="96" rx="10" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+  <text x="226" y="304" font-size="15" font-weight="600" fill="#0f172a" text-anchor="middle">第 2、3 个项目</text>
+  <text x="226" y="330" font-size="12.5" font-weight="400" fill="#64748b" text-anchor="middle">几乎重做 ≈ 1×/个</text>
+  <rect x="52" y="380" width="348" height="118" rx="10" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+  <text x="226" y="418" font-size="19" font-weight="700" fill="#dc2626" text-anchor="middle">累计 8-9×</text>
+  <text x="226" y="446" font-size="12" font-weight="400" fill="#475569" text-anchor="middle">第 10 个项目累计——换人、换上下文、</text>
+  <text x="226" y="467" font-size="12" font-weight="400" fill="#475569" text-anchor="middle">重新踩坑，还要叠返工成本</text>
+  <rect x="456" y="80" width="396" height="452" rx="12" fill="#ffffff" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="654" y="116" font-size="15" font-weight="700" fill="#2563eb" text-anchor="middle">本体化（持续沉淀）</text>
+  <rect x="480" y="140" width="348" height="96" rx="10" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="654" y="184" font-size="15" font-weight="600" fill="#0f172a" text-anchor="middle">第 1 个项目</text>
+  <text x="654" y="210" font-size="12.5" font-weight="400" fill="#64748b" text-anchor="middle">3×——边交付边沉淀是额外成本</text>
+  <rect x="480" y="260" width="348" height="96" rx="10" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="654" y="304" font-size="15" font-weight="600" fill="#0f172a" text-anchor="middle">第 2、3 个项目</text>
+  <text x="654" y="330" font-size="12.5" font-weight="400" fill="#64748b" text-anchor="middle">Skill 复用 ≈ 0.7× → 0.5×/个</text>
+  <rect x="480" y="380" width="348" height="118" rx="10" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="654" y="418" font-size="19" font-weight="700" fill="#2563eb" text-anchor="middle">累计 4-4.5×</text>
+  <text x="654" y="446" font-size="12" font-weight="400" fill="#475569" text-anchor="middle">第 10 个项目累计——边际成本递减，</text>
+  <text x="654" y="467" font-size="12" font-weight="400" fill="#475569" text-anchor="middle">两条曲线在第 2-3 个项目处反转</text>
+  <circle cx="440" cy="300" r="21" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="440" y="305" font-size="12" font-weight="700" fill="#475569" text-anchor="middle">VS</text>
+  <rect x="44" y="562" width="792" height="66" rx="12" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1.2"/>
+  <text x="440" y="602" font-size="13" font-weight="400" fill="#0f172a" text-anchor="middle">3× 的前期投入是买后面的斜率——第 4 单还在 6× 以上，说明沉淀是假的，实质仍是项目制</text>
+</svg>

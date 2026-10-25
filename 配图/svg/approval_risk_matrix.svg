@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 500" role="img" aria-label="动作分级：按可逆性与影响面分三档——自动跑、留确认、强制人工门禁，下方为执行链路的门禁流程">
+  <defs>
+    <marker id="chainArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">
+    <text x="440" y="44" text-anchor="middle" font-size="18" font-weight="600" fill="#0f172a">动作分级：可逆性 × 影响面</text>
+    <g>
+      <rect x="40" y="68" width="140" height="86" rx="12" fill="#059669"/>
+      <text x="110" y="106" text-anchor="middle" font-size="15" font-weight="600" fill="#ffffff">自动跑</text>
+      <text x="110" y="128" text-anchor="middle" font-size="11.5" fill="#ffffff">只读 / 可逆</text>
+      <rect x="192" y="68" width="648" height="86" rx="12" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
+      <text x="516" y="101" text-anchor="middle" font-size="15" font-weight="600" fill="#0f172a">查询、汇总、生成草稿</text>
+      <text x="516" y="123" text-anchor="middle" font-size="12.5" fill="#475569">日常绝大多数动作属于这档</text>
+      <text x="516" y="143" text-anchor="middle" font-size="12.5" fill="#059669">判定：一般不需要人工，可自动执行</text>
+    </g>
+    <g>
+      <rect x="40" y="170" width="140" height="86" rx="12" fill="#d97706"/>
+      <text x="110" y="208" text-anchor="middle" font-size="15" font-weight="600" fill="#ffffff">留确认</text>
+      <text x="110" y="230" text-anchor="middle" font-size="11.5" fill="#ffffff">有限写入 / 易回滚</text>
+      <rect x="192" y="170" width="648" height="86" rx="12" fill="#fffbeb" stroke="#fde68a" stroke-width="1"/>
+      <text x="516" y="203" text-anchor="middle" font-size="15" font-weight="600" fill="#0f172a">写入草稿箱、生成待审文件</text>
+      <text x="516" y="225" text-anchor="middle" font-size="12.5" fill="#475569">做错了能撤，但会留下痕迹</text>
+      <text x="516" y="245" text-anchor="middle" font-size="12.5" fill="#d97706">判定：视场景，建议留一道确认</text>
+    </g>
+    <g>
+      <rect x="40" y="272" width="140" height="86" rx="12" fill="#dc2626"/>
+      <text x="110" y="310" text-anchor="middle" font-size="15" font-weight="600" fill="#ffffff">强制人工门禁</text>
+      <text x="110" y="332" text-anchor="middle" font-size="11.5" fill="#ffffff">不可逆 / 影响面大</text>
+      <rect x="192" y="272" width="648" height="86" rx="12" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+      <text x="516" y="305" text-anchor="middle" font-size="15" font-weight="600" fill="#0f172a">发邮件、改数据库、对外发布、动钱动账</text>
+      <text x="516" y="327" text-anchor="middle" font-size="12.5" fill="#475569">一旦执行，回滚成本极高或无法回滚</text>
+      <text x="516" y="347" text-anchor="middle" font-size="12.5" fill="#dc2626">判定：必须设人工确认关卡（HITL），留痕到人</text>
+    </g>
+    <text x="40" y="406" font-size="13" fill="#475569">执行链路：</text>
+    <g fill="none" stroke="#94a3b8" stroke-width="1.5">
+      <path d="M 252 401 L 274 401" marker-end="url(#chainArrow)"/>
+      <path d="M 411 401 L 433 401" marker-end="url(#chainArrow)"/>
+      <path d="M 574 401 L 596 401" marker-end="url(#chainArrow)"/>
+      <path d="M 693 401 L 715 401" marker-end="url(#chainArrow)"/>
+    </g>
+    <rect x="118" y="380" width="130" height="42" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="183" y="406" text-anchor="middle" font-size="12" fill="#0f172a">Agent 发起动作</text>
+    <rect x="279" y="380" width="128" height="42" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="343" y="406" text-anchor="middle" font-size="12" fill="#0f172a">命中人工门禁？</text>
+    <rect x="438" y="380" width="132" height="42" rx="10" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+    <text x="504" y="406" text-anchor="middle" font-size="12" fill="#dc2626">进人工审批队列</text>
+    <rect x="601" y="380" width="88" height="42" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="645" y="406" text-anchor="middle" font-size="12" fill="#0f172a">人确认</text>
+    <rect x="720" y="380" width="118" height="42" rx="10" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
+    <text x="779" y="406" text-anchor="middle" font-size="12" fill="#059669">执行并留痕</text>
+    <text x="440" y="466" text-anchor="middle" font-size="12" fill="#475569">原则：所有不可逆动作必须有门禁——要么人工审批，要么 dry-run 预览，绝不让 Agent 直接执行就完了</text>
+  </g>
+</svg>

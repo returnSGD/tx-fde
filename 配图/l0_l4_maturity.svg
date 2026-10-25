@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="620" viewBox="0 0 940 620">
+<rect width="940" height="620" fill="#F5F7FA"/>
+<rect x="10" y="10" width="920" height="600" fill="none" stroke="#5C90F6" stroke-width="1.5" rx="6"/>
+<text x="470.0" y="56.8" text-anchor="middle" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="400" fill="#0060F0">L0-L4 成熟度框架</text>
+<rect x="30" y="350" width="160" height="120" rx="10" fill="#DFE7FB" stroke="#5C90F6" stroke-width="1.8"/>
+<text x="110.0" y="385.4" text-anchor="middle" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="400" fill="#222222">L0 场景识别</text>
+<text x="110.0" y="407.1" text-anchor="middle" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="400" fill="#647697">一句话说清</text>
+<text x="110.0" y="426.6" text-anchor="middle" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="400" fill="#647697">谁、卡在哪、省下什么</text>
+<rect x="210" y="300" width="160" height="170" rx="10" fill="#DDF3FF" stroke="#71CCFF" stroke-width="1.8"/>
+<text x="290.0" y="335.4" text-anchor="middle" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="400" fill="#222222">L1 原型验证</text>
+<text x="290.0" y="357.1" text-anchor="middle" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="400" fill="#647697">能跑的 Demo，业务方</text>
+<text x="290.0" y="376.6" text-anchor="middle" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="400" fill="#647697">看过并提出修改意见</text>
+<rect x="390" y="250" width="160" height="220" rx="10" fill="#DFE7FB" stroke="#0060F0" stroke-width="1.8"/>
+<text x="470.0" y="285.4" text-anchor="middle" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="400" fill="#222222">L2 试点运行</text>
+<text x="470.0" y="307.1" text-anchor="middle" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="400" fill="#647697">真实用户连续 ≥2 周，</text>
+<text x="470.0" y="326.6" text-anchor="middle" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="400" fill="#647697">有对照数据</text>
+<rect x="570" y="200" width="160" height="270" rx="10" fill="#DFE7FB" stroke="#0060F0" stroke-width="1.8"/>
+<text x="650.0" y="235.4" text-anchor="middle" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="400" fill="#222222">L3 生产部署</text>
+<text x="650.0" y="257.1" text-anchor="middle" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="400" fill="#647697">进正式流程，有责任人、</text>
+<text x="650.0" y="276.6" text-anchor="middle" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="400" fill="#647697">监控、回滚方案</text>
+<rect x="750" y="150" width="160" height="320" rx="10" fill="#DFE7FB" stroke="#0060F0" stroke-width="2"/>
+<text x="830.0" y="185.4" text-anchor="middle" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="400" fill="#222222">L4 规模扩展</text>
+<text x="830.0" y="207.1" text-anchor="middle" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="400" fill="#647697">复制到新部门时，</text>
+<text x="830.0" y="226.6" text-anchor="middle" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="400" fill="#647697">投入明显低于第一次</text>
+<text x="380.0" y="213.9" text-anchor="middle" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" font-weight="400" fill="#DC2626">死亡谷</text>
+<rect x="379" y="226" width="2" height="248" rx="10" fill="none" stroke="#DC2626" stroke-width="1.8" stroke-dasharray="8 6"/>
+<text x="470.0" y="530.2" text-anchor="middle" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="400" fill="#647697">出口标准逐级过关：大多数项目夭折在 L1→L2 之间——真实数据、权限打通、一线种子用户三关</text>
+<rect x="90" y="548" width="760" height="44" rx="10" fill="#E2EEE7" stroke="#03905C" stroke-width="1.8"/>
+<text x="470.0" y="575.6" text-anchor="middle" font-family="Arial, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" font-weight="400" fill="#222222">每周报进度用一句话：「本周处于 L1→L2 过渡期，主指标 78%，距门槛还差 7 个点」</text>
+</svg>

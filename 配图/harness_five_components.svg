@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="528" viewBox="0 0 760 590">
+  <title>Harness 五件套：把模型包成可运行的系统</title>
+
+  <rect x="0" y="0" width="760" height="590" fill="#ffffff"/>
+
+  <text x="380" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#1e293b">Harness 五件套：把模型包成可运行的系统</text>
+
+  <!-- 连接线 -->
+  <line x1="380" y1="262" x2="380" y2="174" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="456" y1="288" x2="522" y2="240" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="448" y1="344" x2="534" y2="414" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="312" y1="344" x2="226" y2="414" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="304" y1="288" x2="238" y2="240" stroke="#94a3b8" stroke-width="2"/>
+
+  <!-- 中心：大模型 -->
+  <rect x="302" y="262" width="156" height="86" rx="16" fill="#e0e7ff" stroke="#6366f1" stroke-width="3"/>
+  <text x="380" y="298" text-anchor="middle" font-family="system-ui, sans-serif" font-size="21" font-weight="700" fill="#3730a3">大模型</text>
+  <text x="380" y="324" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#475569">（发动机）</text>
+
+  <!-- ① 工具接入（蓝，上） -->
+  <rect x="273" y="66" width="214" height="104" rx="12" fill="#dbeafe" stroke="#3b82f6" stroke-width="2.5"/>
+  <text x="380" y="96" text-anchor="middle" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#1e40af">① 工具接入</text>
+  <text x="380" y="122" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#334155">调用外部 API / 数据 / 搜索</text>
+  <text x="380" y="148" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">缺它：只会说，不会做</text>
+
+  <!-- ② 输入输出契约（青，右上） -->
+  <rect x="524" y="182" width="214" height="104" rx="12" fill="#ccfbf1" stroke="#14b8a6" stroke-width="2.5"/>
+  <text x="631" y="212" text-anchor="middle" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#134e4a">② 输入输出契约</text>
+  <text x="631" y="238" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#334155">进出 Schema 校验</text>
+  <text x="631" y="264" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">缺它：集成格式不匹配</text>
+
+  <!-- ③ 错误处理（琥珀，右下） -->
+  <rect x="500" y="416" width="214" height="104" rx="12" fill="#fef3c7" stroke="#f59e0b" stroke-width="2.5"/>
+  <text x="607" y="446" text-anchor="middle" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#b45309">③ 错误处理</text>
+  <text x="607" y="472" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#334155">超时 / 异常兜底降级</text>
+  <text x="607" y="498" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">缺它：一个报错全崩</text>
+
+  <!-- ④ 护栏门禁（玫红，左下） -->
+  <rect x="46" y="416" width="214" height="104" rx="12" fill="#ffe4e6" stroke="#f43f5e" stroke-width="2.5"/>
+  <text x="153" y="446" text-anchor="middle" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#9f1239">④ 护栏门禁</text>
+  <text x="153" y="472" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#334155">输入输出双向过滤</text>
+  <text x="153" y="498" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">缺它：违规输出投诉</text>
+
+  <!-- ⑤ 可观测（绿，左上） -->
+  <rect x="22" y="182" width="214" height="104" rx="12" fill="#d1fae5" stroke="#10b981" stroke-width="2.5"/>
+  <text x="129" y="212" text-anchor="middle" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#065f46">⑤ 可观测</text>
+  <text x="129" y="238" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#334155">日志 / Trace / 指标</text>
+  <text x="129" y="264" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">缺它：坏了不知哪坏了</text>
+
+  <text x="380" y="565" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" fill="#64748b">模型是发动机，Harness 是整辆车——五件套缺一件，都可能在客户现场崩</text>
+</svg>

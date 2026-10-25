@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="501" viewBox="0 0 760 560">
+  <title>腾讯云几款主要的AI产品定位</title>
+  <defs>
+    <marker id="arw2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#475569"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="560" fill="#ffffff"/>
+
+  <text x="380" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="700" fill="#1e293b">腾讯云几款主要的AI产品定位</text>
+
+  <!-- 坐标轴 -->
+  <line x1="110" y1="470" x2="715" y2="470" stroke="#475569" stroke-width="2" marker-end="url(#arw2)"/>
+  <line x1="110" y1="470" x2="110" y2="90" stroke="#475569" stroke-width="2" marker-end="url(#arw2)"/>
+  <text x="412" y="502" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" fill="#475569">面向用户：业务（非技术） ─────────────→ 技术（研发）</text>
+  <text x="82" y="280" transform="rotate(-90 82 280)" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" fill="#475569">定制程度：低 ─────→ 高</text>
+
+  <!-- WorkBuddy（蓝） -->
+  <circle cx="265" cy="398" r="66" fill="#dbeafe" fill-opacity="0.75" stroke="#3b82f6" stroke-width="3"/>
+  <text x="265" y="382" text-anchor="middle" font-family="system-ui, sans-serif" font-size="19" font-weight="700" fill="#1e40af">WorkBuddy</text>
+  <text x="265" y="406" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#1e40af">业务员工</text>
+  <text x="265" y="426" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#334155">知识问答 / 办公任务</text>
+  <text x="265" y="444" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11.5" fill="#64748b">低代码 · 1~2 周</text>
+
+  <!-- Miora（玫红） -->
+  <circle cx="350" cy="252" r="64" fill="#fce7f3" fill-opacity="0.75" stroke="#ec4899" stroke-width="3"/>
+  <text x="350" y="238" text-anchor="middle" font-family="system-ui, sans-serif" font-size="19" font-weight="700" fill="#9d174d">Miora</text>
+  <text x="350" y="262" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13.5" fill="#9d174d">创意设计用户</text>
+  <text x="350" y="282" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#334155">多模态创意全案</text>
+  <text x="350" y="300" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11.5" fill="#64748b">SaaS 即开即用</text>
+
+  <!-- CodeBuddy（青） -->
+  <circle cx="548" cy="405" r="58" fill="#ccfbf1" fill-opacity="0.8" stroke="#14b8a6" stroke-width="3"/>
+  <text x="548" y="390" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="#134e4a">CodeBuddy</text>
+  <text x="548" y="412" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13.5" fill="#134e4a">开发者</text>
+  <text x="548" y="431" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#334155">代码 / 研发提效</text>
+  <text x="548" y="448" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11.5" fill="#64748b">IDE 插件</text>
+
+  <!-- ADP（紫） -->
+  <circle cx="612" cy="168" r="63" fill="#ede9fe" fill-opacity="0.8" stroke="#8b5cf6" stroke-width="3"/>
+  <text x="612" y="152" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#5b21b6">ADP</text>
+  <text x="612" y="176" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" fill="#5b21b6">IT / AI 开发团队</text>
+  <text x="612" y="196" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#334155">定制 AI 应用资产</text>
+  <text x="612" y="214" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11.5" fill="#64748b">1~3 个月</text>
+
+  <text x="380" y="540" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" fill="#64748b">选型三问：谁来用？做什么？跟什么打通？—— 用户、任务、集成三维度交叉判断最优组合</text>
+</svg>
